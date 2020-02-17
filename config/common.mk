@@ -229,5 +229,5 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 -include vendor/lineage/config/partner_gms.mk
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
-$(call inherit-product, vendor/lineage/config/floko.mk)
+$(call inherit-product, vendor/lineage/config/todak.mk)
 $(call inherit-product, vendor/addons/config.mk)
